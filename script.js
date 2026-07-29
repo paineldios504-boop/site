@@ -30,19 +30,19 @@ const CATEGORIES = [
 
 const PRODUCTS = [
   // BEBIDAS — shape: bottle | sport | carton   |   color = color principal de la marca
-  { id:"b1", cat:"bebidas", name:"Inca Kola 500ml", price:3.00, unit:"botella", shape:"bottle", color:"#F4C430", accent:"#B8860B" },
-  { id:"b2", cat:"bebidas", name:"Coca-Cola 1.5L", price:7.50, unit:"botella", shape:"bottle", color:"#E31E24", accent:"#8C1013", big:true },
-  { id:"b3", cat:"bebidas", name:"Pepsi 1.5L", price:6.50, unit:"botella", shape:"bottle", color:"#1C3F94", accent:"#0F2260", big:true },
-  { id:"b4", cat:"bebidas", name:"Gatorade 500ml", price:5.00, unit:"botella", shape:"sport", color:"#F2711C", accent:"#B24E0E" },
-  { id:"b5", cat:"bebidas", name:"Agua San Carlos 625ml", price:1.50, unit:"botella", shape:"bottle", color:"#BFE9F1", accent:"#4FA6BF" },
-  { id:"b6", cat:"bebidas", name:"Cifrut Naranja 300ml", price:2.00, unit:"botella", shape:"sport", color:"#FF8C3C", accent:"#C9601A" },
-  { id:"b7", cat:"bebidas", name:"Del Valle Durazno 1L", price:5.50, unit:"caja", shape:"carton", color:"#FDBB6E", accent:"#E8892C" },
-  { id:"b8", cat:"bebidas", name:"Guaraná 500ml", price:3.50, unit:"botella", shape:"bottle", color:"#7B2D26", accent:"#4A1712" },
-  { id:"b9", cat:"bebidas", name:"Big Cola 1.5L", price:4.00, unit:"botella", shape:"bottle", color:"#C0272D", accent:"#231F20", big:true },
+  { id:"b1", cat:"bebidas", name:"Inca Kola 500ml", price:3.50, unit:"botella", shape:"bottle", color:"#F4C430", accent:"#B8860B" },
+  { id:"b2", cat:"bebidas", name:"Coca-Cola 1.5L", price:5.50, unit:"botella", shape:"bottle", color:"#E31E24", accent:"#8C1013", big:true },
+  { id:"b3", cat:"bebidas", name:"Pepsi 1.5L", price:4.50, unit:"botella", shape:"bottle", color:"#1C3F94", accent:"#0F2260", big:true },
+  { id:"b4", cat:"bebidas", name:"Gatorade Chico", price:2.50, unit:"botella", shape:"sport", color:"#F2711C", accent:"#B24E0E" },
+  { id:"b5", cat:"bebidas", name:"Agua San Carlos chico", price:1.00, unit:"botella", shape:"bottle", color:"#BFE9F1", accent:"#4FA6BF" },
+  { id:"b6", cat:"bebidas", name:"Cifrut chico", price:1.00, unit:"botella", shape:"sport", color:"#FF8C3C", accent:"#C9601A" },
+  { id:"b7", cat:"bebidas", name:"Del Valle Durazno caja", price:5.50, unit:"caja", shape:"carton", color:"#FDBB6E", accent:"#E8892C" },
+  { id:"b8", cat:"bebidas", name:"Guaranita", price:1.00, unit:"botella", shape:"bottle", color:"#7B2D26", accent:"#4A1712" },
+  { id:"b9", cat:"bebidas", name:"Big Cola 1.5L", price:4.50, unit:"botella", shape:"bottle", color:"#C0272D", accent:"#231F20", big:true },
 
   // GOLOSINAS — shape: candy
-  { id:"g1", cat:"golosinas", name:"Ambrosoli Gusanos Ácidos", price:1.00, unit:"bolsita", shape:"candy", color:"#8BC53F", accent:"#5C9426" },
-  { id:"g2", cat:"golosinas", name:"Ambrosoli Gusanos", price:1.00, unit:"bolsita", shape:"candy", color:"#E85C8A", accent:"#B23464" },
+  { id:"g1", cat:"golosinas", name:"Ambrosoli Gusanos Ácidos", price:2.50, unit:"bolsita", shape:"candy", color:"#8BC53F", accent:"#5C9426" },
+  { id:"g2", cat:"golosinas", name:"Ambrosoli Gusanos", price:2.50, unit:"bolsita", shape:"candy", color:"#E85C8A", accent:"#B23464" },
   { id:"g3", cat:"golosinas", name:"Mipy Chicles", price:1.00, unit:"bolsita", shape:"candy", color:"#6EC6E0", accent:"#3A93AE" },
   { id:"g4", cat:"golosinas", name:"Ambrosito", price:1.50, unit:"bolsita", shape:"candy", color:"#5A9C4A", accent:"#356028" },
   { id:"g5", cat:"golosinas", name:"Ambrosaurios", price:1.50, unit:"bolsita", shape:"candy", color:"#4FA6A0", accent:"#2E6E69" },
@@ -68,19 +68,19 @@ const PRODUCTS = [
   { id:"s5", cat:"snacks", name:"Papitas Lay's", price:2.50, unit:"bolsa", shape:"chip", color:"#FFCB05", accent:"#C23A2E" },
 
   // ABARROTES — shape: rice | jar | can
-  { id:"a1", cat:"abarrotes", name:"Arroz Costeño 1kg", price:4.50, unit:"kg", shape:"rice", color:"#3D6FB4", accent:"#F4EDE1" },
+  { id:"a1", cat:"abarrotes", name:"Arroz Faraon 1kg", price:5.00, unit:"kg", shape:"rice", color:"#3D6FB4", accent:"#F4EDE1" },
   { id:"a2", cat:"abarrotes", name:"Azúcar Rubia 1kg", price:4.00, unit:"kg", shape:"rice", color:"#C99A5B", accent:"#8C6636" },
-  { id:"a3", cat:"abarrotes", name:"Aceite Primor 1L", price:9.90, unit:"botella", shape:"jar", color:"#E8B84B", accent:"#B4860E" },
-  { id:"a4", cat:"abarrotes", name:"Fideos 500g", price:3.50, unit:"paquete", shape:"rice", color:"#E8C34A", accent:"#B4860E" },
-  { id:"a5", cat:"abarrotes", name:"Atún Florida", price:5.00, unit:"lata", shape:"can", color:"#1E5FA8", accent:"#F4C430" },
-  { id:"a6", cat:"abarrotes", name:"Leche Gloria Evaporada", price:3.80, unit:"lata", shape:"can", color:"#2A6FBF", accent:"#F4EDE1" },
-  { id:"a7", cat:"abarrotes", name:"Sal Marina 1kg", price:1.50, unit:"kg", shape:"rice", color:"#A9D6E5", accent:"#4FA6BF" },
+  { id:"a3", cat:"abarrotes", name:"Aceite Primor 1L", price:9.00, unit:"botella", shape:"jar", color:"#E8B84B", accent:"#B4860E" },
+  { id:"a4", cat:"abarrotes", name:"Fideos 500g", price:3.30, unit:"paquete", shape:"rice", color:"#E8C34A", accent:"#B4860E" },
+  { id:"a5", cat:"abarrotes", name:"Atún Florida", price:5.50, unit:"lata", shape:"can", color:"#1E5FA8", accent:"#F4C430" },
+  { id:"a6", cat:"abarrotes", name:"Leche Gloria Evaporada", price:4.50, unit:"lata", shape:"can", color:"#2A6FBF", accent:"#F4EDE1" },
+  { id:"a7", cat:"abarrotes", name:"Sal Marina 1kg", price:2.00, unit:"kg", shape:"rice", color:"#A9D6E5", accent:"#4FA6BF" },
 
   // FRESCOS — shape: eggs | fruit
-  { id:"f1", cat:"frescos", name:"Huevos x 12 (docena)", price:8.00, unit:"docena", shape:"eggs", color:"#D9A066", accent:"#B4794A" },
-  { id:"f2", cat:"frescos", name:"Huevos x 30 (panal)", price:18.00, unit:"panal", shape:"eggs", color:"#C9915A", accent:"#96613A" },
-  { id:"f3", cat:"frescos", name:"Plátano de Seda", price:3.00, unit:"kg", shape:"banana", color:"#F2C230", accent:"#8C9A3A" },
-  { id:"f4", cat:"frescos", name:"Papa Amarilla", price:2.50, unit:"kg", shape:"potato", color:"#D9A85C", accent:"#A87A3A" },
+  { id:"f1", cat:"frescos", name:"Huevos unidad", price:0.60, unit:"unidad", shape:"eggs", color:"#D9A066", accent:"#B4794A" },
+  { id:"f2", cat:"frescos", name:"Huevos x kilo", price:8.50, unit:"panal", shape:"eggs", color:"#C9915A", accent:"#96613A" },
+  { id:"f3", cat:"frescos", name:"Plátano de Seda", price:0.60, unit:"unidad", shape:"banana", color:"#F2C230", accent:"#8C9A3A" },
+  { id:"f4", cat:"frescos", name:"Papa Amarilla", price:3.50, unit:"kg", shape:"potato", color:"#D9A85C", accent:"#A87A3A" },
 
   // CUIDADO PERSONAL — shape: tube | roll | box | spray
   { id:"cp1", cat:"cuidado", name:"Pasta Dental Dento", price:3.50, unit:"unidad", shape:"tube", color:"#1E88A8", accent:"#E63946" },
@@ -91,9 +91,9 @@ const PRODUCTS = [
   { id:"cp6", cat:"cuidado", name:"Ambientador Popett", price:6.00, unit:"unidad", shape:"spray", color:"#8B5CB5", accent:"#5C3480" },
 
   // MASCOTAS — shape: sack | pouch
-  { id:"m1", cat:"mascotas", name:"Faraón Adulto 15kg", price:135.00, unit:"saco", shape:"sack", color:"#F2941C", accent:"#231F20" },
-  { id:"m2", cat:"mascotas", name:"Faraón Cachorro 8kg", price:78.00, unit:"saco", shape:"sack", color:"#F4B14C", accent:"#231F20" },
-  { id:"m3", cat:"mascotas", name:"Super Can 2kg", price:18.00, unit:"bolsa", shape:"chip", color:"#E4622E", accent:"#1C3F94" },
+  { id:"m1", cat:"mascotas", name:"MIchicat", price:8.50, unit:"kilo", shape:"sack", color:"#F2941C", accent:"#231F20" },
+  { id:"m2", cat:"mascotas", name:"Cachorro 8kg", price:8.00, unit:"kilo", shape:"sack", color:"#F4B14C", accent:"#231F20" },
+  { id:"m3", cat:"mascotas", name:"Super Can 1kg", price:8.50, unit:"bolsa", shape:"chip", color:"#E4622E", accent:"#1C3F94" },
 ];
 
 const CARD_COLORS = ["#E4F5F7","#FFE9E9","#FFF3DA","#E9F7EC","#F1E9FB","#FDE9F1"];
