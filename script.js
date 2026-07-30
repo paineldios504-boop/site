@@ -30,7 +30,7 @@ const CATEGORIES = [
 
 const PRODUCTS = [
   // BEBIDAS — shape: bottle | sport | carton   |   color = color principal de la marca
-  { id:"b1", cat:"bebidas", name:"Inca Kola 500ml", price:3.50, unit:"botella", shape:"bottle", color:"#F4C430", accent:"#B8860B" },
+  { id:"b1", cat:"bebidas", name:"Inca Kola 500ml", price:3.50, unit:"botella", photo:"images/incakola.jpg" },
   { id:"b2", cat:"bebidas", name:"Coca-Cola 1.5L", price:5.50, unit:"botella", shape:"bottle", color:"#E31E24", accent:"#8C1013", big:true },
   { id:"b3", cat:"bebidas", name:"Pepsi 1.5L", price:4.50, unit:"botella", shape:"bottle", color:"#1C3F94", accent:"#0F2260", big:true },
   { id:"b4", cat:"bebidas", name:"Gatorade Chico", price:2.50, unit:"botella", shape:"sport", color:"#F2711C", accent:"#B24E0E" },
