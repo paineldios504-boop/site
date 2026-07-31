@@ -39,6 +39,11 @@ const PRODUCTS = [
   { id:"b7", cat:"bebidas", name:"Del Valle Durazno caja", price:5.50, unit:"caja", shape:"carton", color:"#FDBB6E", accent:"#E8892C" },
   { id:"b8", cat:"bebidas", name:"Guaranita", price:1.00, unit:"botella", shape:"bottle", color:"#7B2D26", accent:"#4A1712" },
   { id:"b9", cat:"bebidas", name:"Big Cola 1.5L", price:4.50, unit:"botella", shape:"bottle", color:"#C0272D", accent:"#231F20", big:true },
+  { id:"b10", cat:"bebidas", name:"Inka 1L", price:4.50, unit:"botella", shape:"bottle", color:"#C0272D", accent:"#231F20", big:true },
+  { id:"b11", cat:"bebidas", name:"Inka 2.25L", price:8.00, unit:"botella", shape:"bottle", color:"#C0272D", accent:"#231F20", big:true },
+  { id:"b11", cat:"bebidas", name:"Coca Kola 2.25L", price:8.00, unit:"botella", shape:"bottle", color:"#C0272D", accent:"#231F20", big:true },
+
+
 
   // GOLOSINAS — shape: candy
   { id:"g1", cat:"golosinas", name:"Ambrosoli Gusanos Ácidos", price:2.50, unit:"bolsita", shape:"candy", color:"#8BC53F", accent:"#5C9426" },
@@ -81,19 +86,20 @@ const PRODUCTS = [
   { id:"f2", cat:"frescos", name:"Huevos x kilo", price:8.50, unit:"panal", shape:"eggs", color:"#C9915A", accent:"#96613A" },
   { id:"f3", cat:"frescos", name:"Plátano de Seda", price:0.60, unit:"unidad", shape:"banana", color:"#F2C230", accent:"#8C9A3A" },
   { id:"f4", cat:"frescos", name:"Papa Amarilla", price:3.50, unit:"kg", shape:"potato", color:"#D9A85C", accent:"#A87A3A" },
+  { id:"f5", cat:"frescos", name:"Papa Blanca", price:2.50, unit:"kg", shape:"potato", color:"#D9A85C", accent:"#A87A3A" },
+
 
   // CUIDADO PERSONAL — shape: tube | roll | box | spray
   { id:"cp1", cat:"cuidado", name:"Pasta Dental Dento", price:3.50, unit:"unidad", shape:"tube", color:"#1E88A8", accent:"#E63946" },
   { id:"cp2", cat:"cuidado", name:"Papel Higiénico x4", price:8.00, unit:"paquete", shape:"roll", color:"#F4EDE1", accent:"#E89AB8" },
   { id:"cp3", cat:"cuidado", name:"Toallas Higiénicas x8", price:4.50, unit:"paquete", shape:"box", color:"#E8779A", accent:"#F4EDE1" },
-  { id:"cp4", cat:"cuidado", name:"Jabón Colgate", price:2.00, unit:"unidad", shape:"box", color:"#D6272D", accent:"#F4EDE1" },
+  { id:"cp4", cat:"cuidado", name:"Colgate", price:2.00, unit:"unidad", shape:"box", color:"#D6272D", accent:"#F4EDE1" },
   { id:"cp5", cat:"cuidado", name:"Lejía Clorox 1L", price:4.50, unit:"botella", shape:"spray", color:"#F4C430", accent:"#1E88A8" },
   { id:"cp6", cat:"cuidado", name:"Ambientador Popett", price:6.00, unit:"unidad", shape:"spray", color:"#8B5CB5", accent:"#5C3480" },
 
   // MASCOTAS — shape: sack | pouch
-  { id:"m1", cat:"mascotas", name:"MIchicat", price:8.50, unit:"kilo", shape:"sack", color:"#F2941C", accent:"#231F20" },
-  { id:"m2", cat:"mascotas", name:"Cachorro 8kg", price:8.00, unit:"kilo", shape:"sack", color:"#F4B14C", accent:"#231F20" },
-  { id:"m3", cat:"mascotas", name:"Super Can 1kg", price:8.50, unit:"bolsa", shape:"chip", color:"#E4622E", accent:"#1C3F94" },
+  { id:"m1", cat:"mascotas", name:"Michicat", price:8.50, unit:"kilo", shape:"sack", color:"#F2941C", accent:"#231F20" },
+  { id:"m3", cat:"mascotas", name:"Super Can ", price:8.50, unit:"kilo", shape:"chip", color:"#E4622E", accent:"#1C3F94" },
 ];
 
 const CARD_COLORS = ["#E4F5F7","#FFE9E9","#FFF3DA","#E9F7EC","#F1E9FB","#FDE9F1"];
